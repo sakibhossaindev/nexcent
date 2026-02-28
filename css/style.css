@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 64px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+
+}
+
+h3 {
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #717171;
+}
+
+.btm {
+    display: inline-block;
+}
+
+.btm a {
+    background: #4CAF4F;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    transition: .4s;
+}
+
+.btm:hover a {
+    background: transparent;
+    color: black;
+}
+
+/* ============navber start=================*/
+nav {
+    padding: 22px 0 !important;
+    background: #F5F7FA;
+}
+
+nav .navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+nav .navbar-nav li a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: black;
+    margin-right: 50px;
+}
+
+nav .navbar-nav li a:hover {
+    color: black;
+}
+
+nav .navbar-nav .btm2 a {
+    background: transparent;
+    color: black;
+    margin-right: 14px;
+}
+
+nav .navbar-nav .btm2:hover a {
+    background: #4CAF4F;
+    color: white;
+}
+
+/* ============navber end=================*/
+/* ============baner start=================*/
+.baner {
+    background-color: #F5F7FA;
+    padding: 96px 0;
+}
+
+.baner .col-lg-7 h2 span {
+    color: #4CAF4F;
+}
+
+.baner .col-lg-7 p {
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.baner .btm a {
+    padding: 14px 32px;
+}
+
+/* ============baner end=================*/
+/* ============client start=================*/
+
+.client {
+    padding: 40px 0;
+}
+
+.client h3 {
+    text-align: center;
+}
+
+.client p {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+.client .image{
+    justify-content: space-between;
+    display: flex;
+}
+
+/* ============client end=================*/
+/* ============community start=================*/
+.community h3{
+    text-align: center;
+    width: 542px;
+    margin: 0 auto;
+}.community p{
+    text-align: center;
+}
+/* ============community end=================*/
