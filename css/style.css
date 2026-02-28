@@ -114,18 +114,124 @@ nav .navbar-nav .btm2:hover a {
     padding-top: 8px;
     padding-bottom: 16px;
 }
-.client .image{
+
+.client .image {
     justify-content: space-between;
     display: flex;
 }
 
 /* ============client end=================*/
 /* ============community start=================*/
-.community h3{
+.community {
+    padding-bottom: 42px;
+}
+
+.community h3 {
     text-align: center;
     width: 542px;
     margin: 0 auto;
-}.community p{
-    text-align: center;
 }
+
+.community p {
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.community .card {
+    border: 1px solid transparent !important;
+    box-shadow: 0px 0px 10px rgb(36, 36, 36);
+    transition: .4s;
+}
+
+.community .card:hover {
+    transform: scale(1.1);
+}
+
+.community .card img {
+    width: 65px;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+
+.community .card h4 {
+    font-style: 28px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    width: 260px;
+    color: #4D4D4D;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 36px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+
+}
+
+.community .card p {
+    width: 262px;
+    margin: 0 auto;
+    line-height: 20px;
+
+}
+
+.community .card2 h4 {
+    padding-bottom: 44px;
+}
+
+.community .card3 h4 {
+    width: 200px;
+}
+
 /* ============community end=================*/
+/* ============pixel start=================*/
+.pixel {
+    padding: 52px 0;
+}
+
+.pixel h3 {
+    width: 544px;
+}
+
+.pixel p {
+    width: 600px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+/* ============pixel end=================*/
+/* ============business start=================*/
+.business {
+    background: #F5F7FA;
+    padding: 64px 0;
+}
+
+.business .text h3 {
+    width: 388px;
+}
+
+.business .text span {
+    color: #4CAF4F;
+}
+
+.business .text p {
+    color: black;
+}
+
+.business .icon img {
+    width: 48px; height: 48px;
+    margin-right: 16px;
+}
+
+.business .icon h5 {
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 700px;
+
+}
+.business .icon .row .col-lg-6{
+    display: flex;
+   
+}
+.business .icon2{
+margin-top: 40px;}
+/* ============business end=================*/
