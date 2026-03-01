@@ -44,6 +44,29 @@ p {
     color: black;
 }
 
+.arow a {
+    color: #4CAF4F;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+
+}
+
+.arow a i {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    transition: .4s;
+    opacity: 0;
+}
+
+.arow a:hover i {
+    right: -35px;
+    opacity: 1;
+}
+
 /* ============navber start=================*/
 nav {
     padding: 22px 0 !important;
@@ -218,7 +241,8 @@ nav .navbar-nav .btm2:hover a {
 }
 
 .business .icon img {
-    width: 48px; height: 48px;
+    width: 48px;
+    height: 48px;
     margin-right: 16px;
 }
 
@@ -228,10 +252,67 @@ nav .navbar-nav .btm2:hover a {
     font-weight: 700px;
 
 }
-.business .icon .row .col-lg-6{
+
+.business .icon .row .col-lg-6 {
     display: flex;
-   
+
 }
-.business .icon2{
-margin-top: 40px;}
+
+.business .icon2 {
+    margin-top: 40px;
+}
+
 /* ============business end=================*/
+/* ============design start=================*/
+.design {
+    padding: 52px 0;
+}
+
+.design h3 {
+    width: 600px;
+}
+
+.design p {
+    width: 600px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+/* ============design end=================*/
+/* ============customer end=================*/
+.customer {
+    background: #F5F7FA;
+    padding: 32px 0;
+}
+
+.customer p {
+    width: 748px;
+
+}
+
+.customer h6 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #4CAF4F;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+
+.customer span {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #89939E;
+
+}
+
+.customer .image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+
+/* ============customer end=================*/
